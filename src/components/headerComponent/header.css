@@ -1,5 +1,5 @@
 .headerComponent {
-  background-image: url(images/header.jpg);
+  background-image: url(/public/images/header.jpg);
   height: auto;
   background-position: center;
   background-size: cover;
