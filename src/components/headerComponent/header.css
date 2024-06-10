@@ -14,6 +14,14 @@
   font-size: 4rem;
 }
 
+/* stripping effect of heading */
+.innovate{
+    color: transparent;
+    display: inline-block;
+    background: linear-gradient(220deg, yellow 5%, white 10%, yellow 15%, white 20%, yellow 25%, white 30%,yellow 35%, white 40%,yellow 45%, white 50%,yellow 55%, white 60%,yellow 65%, white 70%,yellow 75%, white 80%,yellow 85%, white 90%,yellow 95%, white 100%);
+    background-clip: text;
+}
+
 .headerComponentDiv2 {
   font-size: 2rem;
   margin-top: 1rem;
