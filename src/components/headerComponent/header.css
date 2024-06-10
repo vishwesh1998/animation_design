@@ -72,7 +72,7 @@
 .headerComponentDiv5 > button {
   font-size: 2.5rem;
   padding: 1rem;
-  background-image: url("images/header.jpg");
+  background-image: url(/public/images/header.jpg);
   background-position: center;
   color: rgba(245, 245, 245, 0.938);
   border: 5px solid darkslategray;
