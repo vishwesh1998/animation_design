@@ -1,0 +1,15 @@
+.footerComponent {
+  background: #fdf2bb;
+  color: #3a4852;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  padding: 1rem;
+}
+
+.footerComponent p {
+  font-size: 1.2rem;
+  word-spacing: 4px;
+}

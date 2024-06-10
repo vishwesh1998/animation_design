@@ -1,0 +1,120 @@
+.headerComponent {
+  background-image: url("images/header.jpg");
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.headerComponentDiv1 {
+  font-size: 4rem;
+}
+
+.headerComponentDiv2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  color: rgba(245, 245, 245, 0.938);
+}
+
+/* setting the duraion of animation */
+.animate__animated.animate__bounceInRight {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__bounceInDown {
+  --animate-duration: 4s;
+}
+
+.headerComponentDiv3 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: rgba(245, 245, 245, 0.938);
+  display: inline-block;
+}
+
+.headerComponentDiv3 p {
+  border-right: 3px solid white;
+  padding: 0.5rem;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: typing 4s steps(26), cursor 0.7s step-end infinite alternate;
+}
+
+/* cursor blinking animation */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.headerComponentDiv4 {
+  font-size: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0/8rem;
+  color: rgba(245, 245, 245, 0.938);
+}
+
+.headerComponentDiv5 > button {
+  font-size: 2.5rem;
+  padding: 1rem;
+  background-image: url("images/header.jpg");
+  background-position: center;
+  color: rgba(245, 245, 245, 0.938);
+  border: 5px solid darkslategray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkslategray;
+}
+
+.headerComponentDiv6 {
+  font-size: 4rem;
+  margin-top: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 576px) {
+  .headerComponentDiv1 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .headerComponentDiv2 {
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .headerComponentDiv3 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .headerComponentDiv5 > button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .headerComponentDiv1 h1 {
+    font-size: 4rem;
+    margin-top: 1.5rem;
+  }
+}
