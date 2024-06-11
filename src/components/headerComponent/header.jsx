@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
-  // @ animation function
+  // @ animation function in header
   let handleIconMovement = () => {
     let iconElement = document.getElementById("headerIcon");
 
