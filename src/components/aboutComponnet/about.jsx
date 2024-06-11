@@ -4,7 +4,7 @@ import "./about.css";
 export default function About() {
   return (
     <div className="aboutComponent">
-      <div className="aboutComponentDiv1">
+      <div className="aboutComponentDiv">
         <h1>About</h1>
         <p>
           To inspire innovation and entrepreneurship among students, the
@@ -14,7 +14,7 @@ export default function About() {
           at KLS on Saturday, June 1st 2024.
         </p>
       </div>
-      <div className="aboutComponentDiv1">
+      <div className="aboutComponentDiv">
         <h1>What is Pitch Day?</h1>
         <p>
           It's a day when aspiring student entrepreneurs present their
@@ -23,7 +23,7 @@ export default function About() {
           awards to help build their ideas.
         </p>
       </div>
-      <div className="aboutComponentDiv1">
+      <div className="aboutComponentDiv">
         <h1>Eligibility & Contest Rules:</h1>
         <div style={{ textAlign: "left", display: "inline-block" }}>
           <ul>
@@ -49,7 +49,7 @@ export default function About() {
           </ul>
         </div>
       </div>
-      <div className="aboutComponentDiv1">
+      <div className="aboutComponentDiv">
         <h1>Sponsors</h1>
         <div className="aboutComponentImg">
           <img src="images/sponser1.webp" />
